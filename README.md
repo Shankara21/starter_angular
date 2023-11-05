@@ -1,27 +1,39 @@
 # StarterAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+Welcome to StarterAngular! This is a ready-to-use Angular development platform designed to help you kickstart your Angular projects with ease.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Follow these simple steps to get started with StarterAngular:
 
-## Code scaffolding
+1. **Clone This Repository**: Use the `git clone` command to download the StarterAngular repository to your computer.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    ```bash
+    git clone https://github.com/Shankara21/starter_angular.git
+    ```
 
-## Build
+2. **Install Dependencies**: Navigate to the project directory and run the `npm install` command to install all the required dependencies.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+    ```bash
+    cd starter_angular
+    npm install
+    ```
 
-## Running unit tests
+3. **Run the Application**: After installing the dependencies, start the project with the `ng serve` command.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    ```bash
+    ng serve
+    ```
 
-## Running end-to-end tests
+4. **View the Application**: Open your browser and visit [http://localhost:4200/](http://localhost:4200/) to see your application.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Key Features
 
-## Further help
+- [ ] Using TailwindCSS combine with daisyUI
+- [ ] ApexChart and Chart.js for Data Visualization 
+- [ ] Pagination, Loader, and Search Filter
+- [ ] Manage Cookies, and localStorage
+- [ ] Dark mode and light mode (Coming soon)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Thank you for using StarterAngular. Happy development with your Angular projects!

@@ -1,3 +1,4 @@
+import { AlertService } from './services/utils/alert/alert.service';
 import { Component } from '@angular/core';
 import { NgxSpinnerService } from 'ngx-spinner';
 
@@ -8,10 +9,11 @@ import { NgxSpinnerService } from 'ngx-spinner';
 })
 export class AppComponent {
   title = 'starter_angular';
-  constructor(private spinner: NgxSpinnerService) {
+  constructor(private spinner: NgxSpinnerService, private AlertService: AlertService) {
     this.spinner.show();
     setTimeout(() => {
       this.spinner.hide();
-    }, 5000);
-   }
+      this.AlertService.onAlert('warning', 'Welcome to Angular 11 Starter', 10000);
+    }, 1000);
+  }
 }

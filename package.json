@@ -21,6 +21,7 @@
     "apexcharts": "^3.44.0",
     "chart.js": "^4.4.0",
     "daisyui": "^3.9.4",
+    "ng-animate": "^2.0.1",
     "ngx-cookie-service": "^16.0.2",
     "ngx-pagination": "^6.0.3",
     "ngx-spinner": "^16.0.2",
